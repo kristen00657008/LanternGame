@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374ECCF225F626C6006BCAE6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374ECCF125F626C6006BCAE6 /* Settings.swift */; };
+		374ECCF525F626DA006BCAE6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374ECCF425F626DA006BCAE6 /* MenuView.swift */; };
+		374ECCF825F62701006BCAE6 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374ECCF725F62701006BCAE6 /* CountDownView.swift */; };
+		491B190025F206880077CCF5 /* LanternGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B18FF25F206880077CCF5 /* LanternGameApp.swift */; };
+		491B190425F2068A0077CCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491B190325F2068A0077CCF5 /* Assets.xcassets */; };
+		491B190725F2068A0077CCF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491B190625F2068A0077CCF5 /* Preview Assets.xcassets */; };
+		491B191525F206C60077CCF5 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B191025F206C60077CCF5 /* HomepageView.swift */; };
+		491B191825F206C60077CCF5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B191325F206C60077CCF5 /* GameView.swift */; };
+		491B191925F206C60077CCF5 /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B191425F206C60077CCF5 /* StructureView.swift */; };
+		491B191C25F20A590077CCF5 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B191B25F20A590077CCF5 /* Questions.swift */; };
+		491B192025F21ACC0077CCF5 /* TimeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B191F25F21ACC0077CCF5 /* TimeUpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		374ECCF125F626C6006BCAE6 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		374ECCF425F626DA006BCAE6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		374ECCF725F62701006BCAE6 /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		491B18FC25F206880077CCF5 /* LanternGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanternGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B18FF25F206880077CCF5 /* LanternGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternGameApp.swift; sourceTree = "<group>"; };
+		491B190325F2068A0077CCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491B190625F2068A0077CCF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		491B190825F2068A0077CCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491B191025F206C60077CCF5 /* HomepageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		491B191325F206C60077CCF5 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		491B191425F206C60077CCF5 /* StructureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
+		491B191B25F20A590077CCF5 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		491B191F25F21ACC0077CCF5 /* TimeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491B18F925F206880077CCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491B18F325F206880077CCF5 = {
+			isa = PBXGroup;
+			children = (
+				491B18FE25F206880077CCF5 /* LanternGame */,
+				491B18FD25F206880077CCF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491B18FD25F206880077CCF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491B18FC25F206880077CCF5 /* LanternGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491B18FE25F206880077CCF5 /* LanternGame */ = {
+			isa = PBXGroup;
+			children = (
+				491B18FF25F206880077CCF5 /* LanternGameApp.swift */,
+				491B191025F206C60077CCF5 /* HomepageView.swift */,
+				491B191425F206C60077CCF5 /* StructureView.swift */,
+				491B191325F206C60077CCF5 /* GameView.swift */,
+				491B191B25F20A590077CCF5 /* Questions.swift */,
+				491B191F25F21ACC0077CCF5 /* TimeUpView.swift */,
+				374ECCF125F626C6006BCAE6 /* Settings.swift */,
+				374ECCF425F626DA006BCAE6 /* MenuView.swift */,
+				374ECCF725F62701006BCAE6 /* CountDownView.swift */,
+				491B190325F2068A0077CCF5 /* Assets.xcassets */,
+				491B190825F2068A0077CCF5 /* Info.plist */,
+				491B190525F2068A0077CCF5 /* Preview Content */,
+			);
+			path = LanternGame;
+			sourceTree = "<group>";
+		};
+		491B190525F2068A0077CCF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				491B190625F2068A0077CCF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491B18FB25F206880077CCF5 /* LanternGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491B190B25F2068A0077CCF5 /* Build configuration list for PBXNativeTarget "LanternGame" */;
+			buildPhases = (
+				491B18F825F206880077CCF5 /* Sources */,
+				491B18F925F206880077CCF5 /* Frameworks */,
+				491B18FA25F206880077CCF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanternGame;
+			productName = LanternGame;
+			productReference = 491B18FC25F206880077CCF5 /* LanternGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491B18F425F206880077CCF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					491B18FB25F206880077CCF5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 491B18F725F206880077CCF5 /* Build configuration list for PBXProject "LanternGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491B18F325F206880077CCF5;
+			productRefGroup = 491B18FD25F206880077CCF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491B18FB25F206880077CCF5 /* LanternGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491B18FA25F206880077CCF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B190725F2068A0077CCF5 /* Preview Assets.xcassets in Resources */,
+				491B190425F2068A0077CCF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491B18F825F206880077CCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491B191925F206C60077CCF5 /* StructureView.swift in Sources */,
+				374ECCF525F626DA006BCAE6 /* MenuView.swift in Sources */,
+				491B192025F21ACC0077CCF5 /* TimeUpView.swift in Sources */,
+				491B191C25F20A590077CCF5 /* Questions.swift in Sources */,
+				491B191525F206C60077CCF5 /* HomepageView.swift in Sources */,
+				374ECCF825F62701006BCAE6 /* CountDownView.swift in Sources */,
+				374ECCF225F626C6006BCAE6 /* Settings.swift in Sources */,
+				491B190025F206880077CCF5 /* LanternGameApp.swift in Sources */,
+				491B191825F206C60077CCF5 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		491B190925F2068A0077CCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		491B190A25F2068A0077CCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		491B190C25F2068A0077CCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LanternGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LanternGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.LanternGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		491B190D25F2068A0077CCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LanternGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LanternGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.LanternGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491B18F725F206880077CCF5 /* Build configuration list for PBXProject "LanternGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B190925F2068A0077CCF5 /* Debug */,
+				491B190A25F2068A0077CCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		491B190B25F2068A0077CCF5 /* Build configuration list for PBXNativeTarget "LanternGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491B190C25F2068A0077CCF5 /* Debug */,
+				491B190D25F2068A0077CCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491B18F425F206880077CCF5 /* Project object */;
+}
